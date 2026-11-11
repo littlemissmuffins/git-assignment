@@ -1,0 +1,88 @@
+GIT COMMANDS USED IN THIS ASSIGNMENT
+
+pwd
+  Shows the folder I am currently in.
+
+git --version
+  Shows which version of Git is installed.
+
+echo "text" > file
+  Creates a file with the given text (used for index.html, about.html and .gitignore).
+
+echo "text" >> file
+  Adds a new line at the end of a file without removing the old content.
+
+ls
+  Lists the files in the folder.
+
+git init -b main
+  Creates a new Git repository with the default branch named main.
+
+git config user.name "Your Name"
+  Sets the name that will show on my commits.
+
+git config user.email "you@example.com"
+  Sets the email that will show on my commits.
+
+git status
+  Shows which files are changed, staged or untracked.
+
+git add .
+  Stages all changed files for the next commit.
+
+git add <file>
+  Stages only the named file.
+
+git commit -m "message"
+  Saves the staged changes as a commit with a message.
+
+git branch feature
+  Creates a new branch named feature.
+
+git branch
+  Lists all branches and marks the current one with a star.
+
+git switch feature
+  Switches to the feature branch.
+
+git switch main
+  Switches back to the main branch.
+
+git merge --no-ff feature -m "message"
+  Merges the feature branch into main and always creates a merge commit.
+
+git log --oneline
+  Shows the commit history in a short one-line format.
+
+git log --oneline --graph --all
+  Shows the history of all branches as a short graph.
+
+mkdir temp
+  Creates a folder named temp (used to test .gitignore).
+
+cat index.html
+  Prints the content of index.html on the screen.
+
+git revert HEAD --no-edit
+  Undoes the last commit by making a new commit that reverses it.
+
+touch git_commands.txt
+  Creates an empty file named git_commands.txt.
+
+cat > git_commands.txt
+  Writes the commands list into git_commands.txt.
+
+git remote add origin <url>
+  Connects my local repository to the GitHub repository.
+
+git remote -v
+  Shows the remote URLs that are connected.
+
+git push -u origin main
+  Pushes the main branch to GitHub and sets it as the default upstream.
+
+git push origin feature
+  Pushes the feature branch to GitHub.
+
+git push
+  Pushes the new commits on the current branch to GitHub.
